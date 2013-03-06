@@ -1,3 +1,3 @@
-include setup.py CHANGE MANIFEST.in AUTHORS README.rst LICENSE.txt tox.ini
+include setup.py HISTORY.rst MANIFEST.in AUTHORS README.rst LICENSE.txt tox.ini
 
 recursive-include tests *

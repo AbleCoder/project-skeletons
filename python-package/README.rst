@@ -1,6 +1,6 @@
-=============
-PROJECT-NAME
-=============
+=======
+PROJECT
+=======
 
 Nice description of what this package does. If you Google_ this project's name
 you should find this ProjectUrl_.
@@ -19,16 +19,16 @@ Install Package
 ---------------
 Install with pip::
 
-    pip install PROJECT_NAME
+    pip install PROJECT
 
 
 Extra Setup Instructions
 ------------------------
-Add ``PROJECT_NAME`` to *INSTALLED_APPS* in ``settings.py``::
+Add ``PROJECT`` to *INSTALLED_APPS* in ``settings.py``::
 
     INSTALLED_APPS = (
     ...
-        'PROJECT_NAME',
+        'PROJECT',
     ...
     )
 
@@ -48,7 +48,7 @@ To use this you can call the follow functions:
 
 Here is example code::
 
-    from PROJECT_NAME import function_one
+    from PROJECT import function_one
 
 
     def try_one():
@@ -57,4 +57,4 @@ Here is example code::
 
 
 .. _Google: https://www.google.com/
-.. _ProjectUrl: http://github.com/AbleCoder/PROJECT-NAME
+.. _ProjectUrl: http://github.com/AbleCoder/PROJECT

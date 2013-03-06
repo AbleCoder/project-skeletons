@@ -11,8 +11,10 @@ except ImportError:
     from distutils.core import setup
 
 # import ourselves for version info
-import NAME
+import PROJECT
 
+
+PATH = os.path.dirname(__file__)
 
 packages = [
     'PROJECT',
@@ -29,15 +31,15 @@ scripts = [
 
 setup(
     name='PROJECT',
-    version=NAME.__version__,
+    version=PROJECT.__version__,
     author='AbleCoder',
     author_email='coder@able.cd',
     license='LICENSE.txt',
     description='PROJECT Desc',
-    long_description=open('README.rst').read() + '\n\n' +
-                     open('HISTORY.rst').read(),
+    long_description=open(os.path.join(PATH, 'README.rst')).read() + '\n\n' +
+                     open(os.path.join(PATH, 'HISTORY.rst')).read(),
     url='http://github.com/AbleCoder/PROJECT',
-    download_url='http://github.com/AbleCoder/PROJECT/tarball/master'
+    download_url='http://github.com/AbleCoder/PROJECT/tarball/master',
     packages=packages,
     install_requires=requires,
 
