@@ -1,60 +1,16 @@
-=======
-PROJECT
-=======
+.. :changelog:
 
-Nice description of what this package does. If you Google_ this project's name
-you should find this ProjectUrl_.
+History
+-------
 
-List of things this package does:
+0.2.0 (20YY-MM-DD)
+++++++++++++++++++
 
-* Does something awesome for all ``.py`` files.
-
-* Adds neat function too!
+* Birth!
 
 
-Installation
-============
+0.0.1 (20YY-MM-DD)
+++++++++++++++++++
 
-Install Package
----------------
-Install with pip::
+* Initial Concept
 
-    pip install PROJECT
-
-
-Extra Setup Instructions
-------------------------
-Add ``PROJECT`` to *INSTALLED_APPS* in ``settings.py``::
-
-    INSTALLED_APPS = (
-    ...
-        'PROJECT',
-    ...
-    )
-
-
-Usage
-=====
-
-Basic Usage
------------
-To use this you can call the follow functions:
-
-* function_one
-* function_two
-* function_three
-
-**NOTE:** Quick note about basic usage caveat.
-
-Here is example code::
-
-    from PROJECT import function_one
-
-
-    def try_one():
-
-        return function_one("TEST")
-
-
-.. _Google: https://www.google.com/
-.. _ProjectUrl: http://github.com/AbleCoder/PROJECT

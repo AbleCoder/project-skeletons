@@ -47,7 +47,7 @@ setup(
     #   https://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
         "Development Status :: 1 - Planning",
-        "Environment :: Console"
+        "Environment :: Console",
         "Intended Audience :: Developers",
         "Intended Audience :: System Administrators",
         "Operating System :: OS Independent",
